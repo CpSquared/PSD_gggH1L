@@ -1,7 +1,7 @@
 # PSD_gggH1L
 Numerical Evaluation of the Amplitude for gg->gH process at 1-Loop LO using pySecDec
 
-Project_Report.pdf =  Short Report of The Project describing The Methodology and summarising the Results
+DAAD_WISE_Project_Report.pdf =  Short Report of The Project describing The Methodology and summarising the Results
 
 gggH1L = Contains all the files Necessary for the Numerical Evaluation of the required Amplitude with pySecDec
 
