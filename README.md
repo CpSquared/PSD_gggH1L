@@ -74,7 +74,7 @@ Numerical Result of The Normalized Ampltiude Squared with the above Form Factors
                                                                                                                                                                                              
 | M_(g g -> g H) |^2 :  0.00217977663809607898  : Here we have added all the mod squared Helicity Amplitudes 
                                                                                                                                                                                              
-Multiply Above Number with ( ( Nc*(Nc^2 -1) )*(topmass^4)*(alpha_S^3) / pi*(v^2) )  To Get The Final Ampltiude Squared, which can then be averaged over colors and gluon polraisations 
+Multiply Above Number with ( ( Nc*(Nc^2 -1) )* (topmass^4)*(alpha_S^3) / pi*(v^2) )  To Get The Final Ampltiude Squared, which can then be averaged over colors and gluon polraisations 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -82,10 +82,10 @@ Analytic Result of The Normalized Ampltiude Squared in the heavy top quark limit
                                                                                                                                                                                              
 | M_(g g -> g H) |^2 :  0.0021797762426380867
                                                                                                                                                                                              
-Multiply Above Number with ( ( Nc*(Nc^2 -1) )*(topmass^4)*(alpha_S^3) / pi*(v^2) )  To Get The Final Ampltiude Squared, which can then be averaged over colors and gluon polraisations 
+Multiply Above Number with ( ( Nc*(Nc^2 -1) )* (topmass^4)*(alpha_S^3) / pi*(v^2) )  To Get The Final Ampltiude Squared, which can then be averaged over colors and gluon polraisations 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Both Numerical and Analytic Amplitudes have been eveluated at these conditions : 
+Both Numerical and Analytic Amplitudes have been evaluated at these conditions : 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  [ s12, s13, s23, topmass^2, hmass^2 ]  = [  0.0009 ,  -0.0003 ,  -0.00059842873775 ,  1.0 ,  1.5712622500000002e-06  ]
