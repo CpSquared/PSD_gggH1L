@@ -3,6 +3,8 @@ Numerical Evaluation of the Amplitude for gg->gH process at 1-Loop LO using pySe
 
 gggH1L = Contains all the files Necessary for the Numerical Evaluation of the required Amplitude with pySecDec
 
+Output_Summary_MgggH1L.txt  =  Sample Terminal Output at two different set of run points
+
 Mathematica_Notebooks = Mathematica Notebooks which has my calculations for : 
 
 F212_Factors.nb =  Calculation of P & T Coefficients for the Superposition of the Integrals in the Normalized F212 Form Factor 
