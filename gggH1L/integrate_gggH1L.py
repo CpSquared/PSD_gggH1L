@@ -188,7 +188,7 @@ if __name__ == "__main__":
     print('                                                                                                                                                                                             ')
     print('Multiply Above Number with ( ( Nc*(Nc^2 -1) )*(topmass^4)*(alpha_S^3) / pi*(v^2) )  To Get The Final Ampltiude Squared, which can then be averaged over colors and gluon polraisations ')
     print('---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------')
-    print('Both Numerical and Analytic Amplitudes have been eveluated at these conditions : ')
+    print('Both Numerical and Analytic Amplitudes have been evaluated at these conditions : ')
     print('---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------')
     print(' [ s12, s13, s23, topmass^2, hmass^2 ]  = [ ',s1,', ',s2,', ',s3,', ',(topmass*topmass),', ',(hmass*hmass),' ]')
     print('---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------')
