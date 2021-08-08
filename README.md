@@ -3,7 +3,9 @@ Numerical Evaluation of the Amplitude for gg->gH process at 1-Loop LO using pySe
 
 gggH1L = Contains all the files Necessary for the Numerical Evaluation of the required Amplitude with pySecDec
 
-Output_Summary_MgggH1L.txt  =  Sample Terminal Output at two different set of run points
+Output_Summary_MgggH1L.txt  =  Sample Terminal Output for the amplitude at two different set of run points
+
+Expansion by regions = Contains all the files to evaluate the master integrals using the expansion by regions method
 
 Mathematica_Notebooks = Mathematica Notebooks which has my calculations for : 
 
