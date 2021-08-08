@@ -1,0 +1,177 @@
+############################################################################################################################################################################
+############################################################################################################################################################################
+############################################################################################################################################################################
+
+
+------>         pySecDec Terminal Outputs for Different Master Integrals evaluated with expansion by regions method : In the Heavy Top Limit : 
+
+     --->      Run 1  = [ s12, s13, s23, mtsq, mhsq ] =  [ 0.00383,-0.000966,-0.000966,1.0,0.000157126225 ]  
+
+----->  Analytic Results for all Master Integrals in HTL given by equations (II.65 to II.69) in the Higgs Handbook
+
+
+############################################################################################################################################################################
+############################################################      g7_s12                  ##################################################################################
+############################################################################################################################################################################
+
+# RUN 1
+
+-----------------------
+  conditions of integrate.py file
+
+s1, s2, s3, mtsq, mhsq =  0.00383,-0.000966,-0.000966,1.0,0.000157126225          # Keep same for all Integrals
+names = ["g7_s12"]
+real_parameters = [[s1,s2,s3,mtsq,mhsq,1]] # z set to 1
+
+---------------------
+
+
+Analytic Result :
+eps^0 :  -0.5001661302593751
+eps :  0.2885375951795169
+Numerical Result
+eps^0  -0.50024+0.00000*I +/-  5.55529e-14+2.26492e-14*I
+eps^1   0.28851-0.00000*I +/-  3.21282e-14+1.36031e-14*I
+
+
+
+############################################################################################################################################################################
+############################################################      g5_s12                  ##################################################################################
+############################################################################################################################################################################
+
+# RUN 1
+
+#########  g5  required aditional regulator n1 in the propagator powers, indicated by pySecDec as follows : 
+
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/multiprocessing/pool.py", line 119, in worker
+    result = (True, func(*args, **kwds))
+  File "/usr/lib/python3.6/multiprocessing/pool.py", line 44, in mapstar
+    return list(map(*args))
+  File "/home/cp_squared/.local/lib/python3.6/site-packages/pySecDec/code_writer/make_package.py", line 1166, in _process_secondary_sector
+    after_ibp = integrate_by_parts(subtraction_initializer, ibp_power_goal_this_primary_sector, integration_variable_indices)
+  File "/home/cp_squared/.local/lib/python3.6/site-packages/pySecDec/subtraction.py", line 367, in integrate_by_parts
+    new_products.extend( _integrate_by_parts_single_index(polyprod, power_goal, index) )
+  File "/home/cp_squared/.local/lib/python3.6/site-packages/pySecDec/subtraction.py", line 240, in _integrate_by_parts_single_index
+    raise ValueError('"1/0" detected. An additional regulator is needed to calculate this integral.')
+ValueError: "1/0" detected. An additional regulator is needed to calculate this integral.
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "mygenerate.py", line 75, in <module>
+    complex_parameters = [])
+  File "/home/cp_squared/.local/lib/python3.6/site-packages/pySecDec/code_writer/sum_package.py", line 502, in sum_package
+    template_replacements = make_package(**package_generator_dict)
+  File "/home/cp_squared/.local/lib/python3.6/site-packages/pySecDec/code_writer/make_package.py", line 2131, in make_package
+    _make_environment( locals() )
+  File "/usr/lib/python3.6/multiprocessing/pool.py", line 266, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/usr/lib/python3.6/multiprocessing/pool.py", line 644, in get
+    raise self._value
+ValueError: "1/0" detected. An additional regulator is needed to calculate this integral.
+
+
+###########  Additional n1 regulator was introduced to get following output
+
+----------------------------------------------
+  conditions of integrate.py file
+
+s1, s2, s3, mtsq, mhsq =  0.00383,-0.000966,-0.000966,1.0,0.000157126225          # Keep same for all Integrals
+names = ["g5_s12"]
+real_parameters = [[s1,s2,s3,mtsq,mhsq,1]] # z set to 1
+
+---------------------
+
+
+Analytic Result :
+eps^0 :  -0.5001595833333333
+eps :  0.2885403631172903
+Numerical Result
+eps^0  -0.50016+0.00000*I +/-  3.26484e-14+1.75397e-14*I
+eps^1   0.28854-0.00000*I +/-  1.88452e-14+1.01242e-14*I
+
+
+
+
+############################################################################################################################################################################
+############################################################      g2_s12                  ##################################################################################
+############################################################################################################################################################################
+
+# RUN 1
+
+-----------------------
+  conditions of integrate.py file
+
+s1, s2, s3, mtsq, mhsq =  0.00383,-0.000966,-0.000966,1.0,0.000157126225          # Keep same for all Integrals
+names = ["g2_s12"]
+real_parameters = [[s1,s2,s3,mtsq,mhsq,1]] # z set to 1
+
+---------------------
+
+
+Analytic Result :
+eps^0 :  -0.5003191666666666
+eps :  0.2884728937838142
+Numerical Result
+eps^0  -0.50032-0.00000*I +/-  3.40961e-17+1.93492e-17*I
+eps^1   0.28847-0.00000*I +/-  1.96825e-17+1.11695e-17*I
+
+
+############################################################################################################################################################################
+############################################################      g9                      ##################################################################################
+############################################################################################################################################################################
+
+# RUN 1
+
+-----------------------
+  conditions of integrate.py file
+
+s1, s2, s3, mtsq, mhsq =  0.00383,-0.000966,-0.000966,1.0,0.000157126225          # Keep same for all Integrals
+names = ["g9"]
+real_parameters = [[s1,s2,s3,mtsq,mhsq,1]] # z set to 1
+
+---------------------
+
+
+Analytic Result :
+eps^0 :  0.16666666666666666
+eps :  0.07046405584974452
+Numerical Result
+eps^0   0.16675+0.00000*I +/-  9.98637e-11+1.30306e-10*I
+eps^1   0.07054+0.00000*I +/-  4.22209e-11+5.50912e-11*I
+
+
+
+############################################################################################################################################################################
+############################################################      g1_mt2                  ##################################################################################
+############################################################################################################################################################################
+
+
+----------->  g1 shows following error for the generate file. I wasn't sure what to do, or where I should change the polytope parameter
+
+
+Traceback (most recent call last):
+  File "mygenerate.py", line 69, in <module>
+    expansion_by_regions_order=order)
+  File "/home/cp_squared/.local/lib/python3.6/site-packages/pySecDec/loop_integral/loop_regions.py", line 252, in loop_regions
+    processes = processes
+  File "/home/cp_squared/.local/lib/python3.6/site-packages/pySecDec/make_regions.py", line 455, in make_regions
+    normaliz=normaliz, workdir=name)
+  File "/home/cp_squared/.local/lib/python3.6/site-packages/pySecDec/make_regions.py", line 151, in find_regions
+    polytope.complete_representation(normaliz, workdir)
+  File "/home/cp_squared/.local/lib/python3.6/site-packages/pySecDec/polytope.py", line 283, in complete_representation
+    self.facets = self._read_cst_file(os.path.join(workdir,run_card_file_prefix + '.cst'))
+  File "/home/cp_squared/.local/lib/python3.6/site-packages/pySecDec/polytope.py", line 356, in _read_cst_file
+    raise NotImplementedError("Polytope is not full dimensional. Are you trying to compute a scaleless integral (which evaluates to zero)?")
+NotImplementedError: Polytope is not full dimensional. Are you trying to compute a scaleless integral (which evaluates to zero)?
+
+
+
+
+############################################################################################################################################################################
+############################################################################################################################################################################
+############################################################################################################################################################################
