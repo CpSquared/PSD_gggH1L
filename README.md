@@ -1,11 +1,11 @@
 # PSD_gggH1L
 Numerical Evaluation of the Amplitude for gg->gH process at 1-Loop using pySecDec
 
-Project_Report.pdf = Full report about for this project 
+Project_Report.pdf = Full report about this project 
 
 gggH1L = Contains all the files Necessary for the Numerical Evaluation of the gg -> gH Amplitude at 1-loop with pySecDec
 
-Output_Summary_MgggH1L.txt  =  Sample Terminal Output for the amplitude at two different set of run points
+Output_Summary_MgggH1L.txt  =  Sample Terminal Output for the amplitude 
 
 Expansion by regions = Contains all the files to evaluate the master integrals using the expansion by regions method
 
